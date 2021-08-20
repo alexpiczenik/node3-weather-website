@@ -7,6 +7,7 @@ const geoCode = require('./utils/geocode.js')
 
 
 const app = express()
+const port = process.env.PORT || 3000
 
 //path for express config
 const publicDir = path.join(__dirname, '../public')
